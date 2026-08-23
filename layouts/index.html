@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="hero">
+  <svg width="84" height="84" viewBox="0 0 96 96" aria-hidden="true"><path d="M14 34 C 38 34, 58 62, 82 62" fill="none" stroke="var(--ambre)" stroke-width="9" stroke-linecap="round"/><path d="M14 62 C 38 62, 58 34, 82 34" fill="none" stroke="var(--indigo)" stroke-width="9" stroke-linecap="round"/></svg>
+  <h1 class="wordmark">Tables Para<span class="lA">l</span><span class="lB">l</span>èles</h1>
+  <p class="tagline">{{ site.Params.tagline }}</p>
+</div>
+<div class="series-tuiles">
+  <a class="serie-t t-ambre" href="{{ "/serie/la-table-des-trois/" | relURL }}"><b>La Table des Trois</b><p>Trois enfants, un wiki chiffré, Mutants &amp; Masterminds en famille.</p></a>
+  <a class="serie-t t-indigo" href="{{ "/serie/ensemble-et-temps/" | relURL }}"><b>Ensemble et Temps</b><p>Une campagne D&amp;D, deux tables, des mondes qui se croisent.</p></a>
+  <a class="serie-t t-encre" href="{{ "/serie/atelier/" | relURL }}"><b>L'Atelier</b><p>Méthode, outillage et IA au service des tables.</p></a>
+</div>
+<h2>Derniers carnets</h2>
+{{ range first 8 (where site.RegularPages "Section" "posts") }}
+{{ partial "carte-post.html" . }}
+{{ end }}
+{{ end }}

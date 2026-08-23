@@ -1,0 +1,29 @@
+baseURL = "https://tablesparalleles.fr/"
+languageCode = "fr-fr"
+defaultContentLanguage = "fr"
+title = "Tables Parallèles"
+enableRobotsTXT = true
+timeZone = "Europe/Paris"
+
+[params]
+  description = "Carnets d'un MJ qui mène plusieurs mondes de front."
+  tagline = "Carnets d'un MJ qui mène plusieurs mondes de front"
+  buttondown = "tablesparalleles"
+
+[taxonomies]
+  serie = "serie"
+
+[permalinks]
+  posts = "/:year/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML", "RSS"]
+
+[pagination]
+  pagerSize = 10

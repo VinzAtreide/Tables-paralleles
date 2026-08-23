@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="post">
+  <p class="meta">{{ .Date | time.Format ":date_long" }}{{ range .GetTerms "serie" }} · <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="chapo">{{ . }}</p>{{ end }}
+  {{ .Content }}
+</article>
+{{ end }}
