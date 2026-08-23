@@ -10,8 +10,10 @@ pied de page.
 **Hébergement.** Le site est hébergé par GitHub Pages (GitHub, Inc., 88 Colin
 P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis).
 
-**Données personnelles.** Ce site ne dépose aucun cookie et n'embarque aucun
-traceur. L'inscription à la newsletter transmet ton adresse email à
+**Données personnelles.** Ce site ne dépose aucun cookie. La fréquentation
+est mesurée par GoatCounter, un outil open source qui compte les visites de
+façon anonyme, sans cookie ni identifiant, et ne permet pas de te reconnaître
+d'une visite à l'autre. L'inscription à la newsletter transmet ton adresse email à
 Buttondown (Buttondown, LLC), qui l'utilise uniquement pour l'envoi des
 carnets ; chaque envoi contient un lien de désinscription qui supprime
 l'adresse. Aucune adresse n'est revendue ni transmise à des tiers. Pour
