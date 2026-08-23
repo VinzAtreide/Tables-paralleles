@@ -1,8 +1,54 @@
 {{ define "main" }}
+{{ if eq .Section "posts" }}
+{{ $s := index (.GetTerms "serie") 0 }}
+<div class="article-grille">
 <article class="post">
-  <p class="meta">{{ .Date | time.Format ":date_long" }}{{ range .GetTerms "serie" }} · <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}</p>
+  <header class="entete-article {{ with $s }}s-{{ path.Base .Page.RelPermalink }}{{ end }}">
+    <p class="meta">{{ .Date | time.Format ":date_long" }}{{ with $s }} · <a href="{{ .Page.RelPermalink }}">{{ .LinkTitle }}</a>{{ end }} · {{ .ReadingTime }} min de lecture</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p class="chapo">{{ . }}</p>{{ end }}
+  </header>
+  {{ .Content }}
+  <div class="fin-article">
+    <nav class="nav-posts" aria-label="Autres carnets">
+      {{ with .NextInSection }}<a class="prec" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+      {{ with .PrevInSection }}<a class="suiv" href="{{ .RelPermalink }}">{{ .Title }} →</a>{{ end }}
+    </nav>
+    {{ partial "newsletter.html" . }}
+    {{ partial "commentaires.html" . }}
+  </div>
+</article>
+<aside class="article-cote">
+  {{ with $s }}
+  <div class="cote-bloc">
+    <span class="etq">La série</span>
+    <b>{{ .LinkTitle }}</b>
+    <p style="font-size:14px;color:var(--encre-2);margin:6px 0 0">{{ .Page.Params.resume }}</p>
+  </div>
+  {{ $memeSerie := where .Page.Pages "Permalink" "ne" $.Permalink }}
+  {{ if $memeSerie }}
+  <div class="cote-bloc">
+    <span class="etq">Dans la même série</span>
+    <ul>{{ range first 4 $memeSerie }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+  </div>
+  {{ end }}
+  {{ end }}
+  {{ if .TableOfContents }}
+  <div class="cote-bloc">
+    <span class="etq">Dans ce carnet</span>
+    {{ .TableOfContents }}
+  </div>
+  {{ end }}
+</aside>
+</div>
+{{ else }}
+<div class="colonne">
+<article class="post">
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="chapo">{{ . }}</p>{{ end }}
   {{ .Content }}
+  {{ if eq .Params.newsletter_on true }}{{ partial "newsletter.html" . }}{{ end }}
 </article>
+</div>
+{{ end }}
 {{ end }}

@@ -1,7 +1,5 @@
 {{ define "main" }}
-<div class="hero">
-  <svg width="84" height="84" viewBox="0 0 96 96" aria-hidden="true"><path d="M14 34 C 38 34, 58 62, 82 62" fill="none" stroke="var(--ambre)" stroke-width="9" stroke-linecap="round"/><path d="M14 62 C 38 62, 58 34, 82 34" fill="none" stroke="var(--indigo)" stroke-width="9" stroke-linecap="round"/></svg>
-  <h1 class="wordmark">Tables Para<span class="lA">l</span><span class="lB">l</span>èles</h1>
+<div class="hero-bandeau">
   <p class="tagline">{{ site.Params.tagline }}</p>
 </div>
 <div class="series-tuiles">
@@ -9,8 +7,22 @@
   <a class="serie-t t-indigo" href="{{ "/serie/ensemble-et-temps/" | relURL }}"><b>Ensemble et Temps</b><p>Une campagne D&amp;D, deux tables, des mondes qui se croisent.</p></a>
   <a class="serie-t t-encre" href="{{ "/serie/atelier/" | relURL }}"><b>L'Atelier</b><p>Méthode, outillage et IA au service des tables.</p></a>
 </div>
-<h2>Derniers carnets</h2>
-{{ range first 8 (where site.RegularPages "Section" "posts") }}
+{{ $posts := where site.RegularPages "Section" "posts" }}
+{{ with index $posts 0 }}
+{{ $s := index (.GetTerms "serie") 0 }}
+<a class="une {{ with $s }}s-{{ path.Base .Page.RelPermalink }}{{ end }}" href="{{ .RelPermalink }}">
+  <span class="meta">À la une · {{ .Date | time.Format ":date_long" }}{{ with $s }} · {{ .LinkTitle }}{{ end }} · {{ .ReadingTime }} min</span>
+  <h2>{{ .Title }}</h2>
+  <p>{{ .Description }}</p>
+</a>
+{{ end }}
+{{ $reste := after 1 $posts }}
+{{ if $reste }}
+<h2>Les carnets précédents</h2>
+<div class="grille-posts">
+{{ range first 6 $reste }}
 {{ partial "carte-post.html" . }}
+{{ end }}
+</div>
 {{ end }}
 {{ end }}

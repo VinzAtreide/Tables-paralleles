@@ -3,10 +3,13 @@
     {{ partial "logo.html" . }}
     <b>Tables Para<span class="lA">l</span><span class="lB">l</span>èles</b>
   </a>
+  <div class="haut-droite">
   <nav class="menu">
-    <a href="{{ "/posts/" | relURL }}">Articles</a>
+    <a href="{{ "/posts/" | relURL }}">Les carnets</a>
     <a href="{{ "/serie/" | relURL }}">Séries</a>
     <a href="{{ "/a-propos/" | relURL }}">À propos</a>
     <a href="{{ "/newsletter/" | relURL }}">Newsletter</a>
   </nav>
+  <button id="theme" type="button" aria-label="Changer de thème">A</button>
+  </div>
 </header>

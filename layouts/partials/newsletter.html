@@ -1,10 +1,8 @@
-{{ if ne .Params.newsletter_off true }}
 <div class="nl">
   <h3>La newsletter</h3>
   <p>Un carnet toutes les deux semaines, directement chez toi. Pas de spam, désinscription en un clic.</p>
-  <form action="https://buttondown.com/api/emails/embed-subscribe/{{ site.Params.buttondown }}" method="post" target="_blank">
+  <form action="https://buttondown.com/api/emails/embed-subscribe/{{ site.Params.buttondown }}" method="post" target="_blank" rel="noopener">
     <input type="email" name="email" placeholder="ton@email.fr" required aria-label="Adresse email">
     <button type="submit">S'abonner</button>
   </form>
 </div>
-{{ end }}

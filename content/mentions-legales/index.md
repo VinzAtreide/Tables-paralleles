@@ -1,7 +1,6 @@
 ---
 title: "Mentions légales"
 description: "Éditeur, hébergement et données personnelles."
-newsletter_off: true
 ---
 **Éditeur.** Ce site est édité à titre personnel et non commercial par son
 auteur, joignable via [la newsletter](/newsletter/) ou les réseaux liés en

@@ -1,4 +1,5 @@
 {{ define "main" }}
+<div class="colonne liste-posts">
 <h1>Les séries</h1>
 {{ range .Data.Terms.Alphabetical }}
 <a class="carte-post" href="{{ .Page.RelPermalink }}">
@@ -6,4 +7,5 @@
   <p>{{ .Page.Params.resume }} · {{ .Count }} carnet{{ if gt .Count 1 }}s{{ end }}</p>
 </a>
 {{ end }}
+</div>
 {{ end }}

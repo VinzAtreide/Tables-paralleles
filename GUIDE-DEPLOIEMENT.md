@@ -65,3 +65,10 @@ façon nécessaire à ce seuil, et inclut l'automatisation RSS avec le flux
 
 ⚠ Un article daté dans le futur ne se publie pas avant sa date — pour le
 sortir, re-pousser (ou relancer le workflow) le jour même ou dater au jour J.
+
+## 6. Être prévenu si une publication échoue
+
+GitHub notifie par email l'auteur d'un push dont le workflow échoue, à
+condition que ce soit activé : github.com → Settings (compte) →
+Notifications → section « Actions » → cocher les notifications d'échec.
+À vérifier une fois.

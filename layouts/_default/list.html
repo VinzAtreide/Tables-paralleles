@@ -1,7 +1,9 @@
 {{ define "main" }}
+<div class="colonne liste-posts">
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ range .Pages.ByDate.Reverse }}
 {{ partial "carte-post.html" . }}
 {{ end }}
+</div>
 {{ end }}

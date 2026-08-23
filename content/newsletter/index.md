@@ -1,7 +1,7 @@
 ---
 title: "La newsletter"
 description: "Un carnet toutes les deux semaines, directement chez toi."
-newsletter_off: false
+newsletter_on: true
 ---
 Tous les quinze jours, le dernier carnet arrive dans ta boîte mail, rien de
 plus, rien de moins. Pas de spam, pas de revente d'adresse, désinscription en

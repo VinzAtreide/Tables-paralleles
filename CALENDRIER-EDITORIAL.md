@@ -22,3 +22,9 @@ monter (entrée 11).
 Règles : jamais de volumétrie de traduction · jamais de prénoms des enfants ·
 accord des enfants avant toute scène les concernant · relecture CHARTE-ECRITURE.md obligatoire · annonce LinkedIn pour
 les articles Atelier, communautés JDR pour les autres.
+
+## Convention UTM (mesure des canaux)
+
+Tout lien partagé porte `?utm_source=<canal>` : `linkedin`, `reddit`,
+`discord`, `newsletter`. GoatCounter les affiche dans « Campagnes ».
+Exemple : `https://tablesparalleles.fr/2026/mon-article/?utm_source=linkedin`.
