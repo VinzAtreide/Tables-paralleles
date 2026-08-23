@@ -31,19 +31,30 @@ Chez OVH → Web Cloud → Noms de domaine → tablesparalleles.fr → **Zone DN
 | A | (vide) | 185.199.111.153 |
 | CNAME | www | vinzatreide.github.io. |
 
-(Supprimer les éventuels enregistrements A/AAAA par défaut d'OVH sur la racine,
-notamment la redirection vers leur page parking.)
+⚠ OVH crée par défaut un enregistrement A sur la racine vers son serveur de
+parking (`213.186.33.5`) : il faut le SUPPRIMER, sinon GitHub répond
+« Échec de la vérification DNS ». Supprimer aussi tout AAAA par défaut sur la
+racine. Après correction : GitHub → Settings → Pages → « Check again ».
 
 Puis GitHub → Settings → Pages → **Custom domain** : `tablesparalleles.fr`
 → Save → cocher **Enforce HTTPS** quand la vérification passe (jusqu'à 24 h,
 souvent 15 min).
 
-## 4. Brancher la newsletter automatique (5 min, une seule fois)
+## 4. Envoyer la newsletter (2 min par article)
 
-Buttondown → Settings → **Subscribing** (section RSS / automation) →
-ajouter le flux `https://tablesparalleles.fr/index.xml`.
-Chaque nouvel article publié partira en email aux abonnés.
-Vérifier l'aperçu du premier envoi avant de confirmer l'automatisation.
+L'automatisation RSS→email de Buttondown est réservée aux offres payantes
+(~9 $/mois) : en offre gratuite, l'envoi est manuel, et c'est très bien à
+notre rythme.
+
+À chaque publication d'article :
+1. Buttondown → **Emails → New email**.
+2. Titre de l'article, deux ou trois phrases d'accroche écrites pour
+   l'email, lien vers l'article.
+3. Aperçu, puis Send.
+
+À reconsidérer au-delà de 100 abonnés (l'offre payante devient de toute
+façon nécessaire à ce seuil, et inclut l'automatisation RSS avec le flux
+`https://tablesparalleles.fr/index.xml`).
 
 ## 5. Publier un article (le rituel, 2 min)
 
