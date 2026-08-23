@@ -47,3 +47,12 @@ thèse, les tableaux dans les articles techniques de L'Atelier.
 
 grep -c "—" fichier.md   → doit répondre 0
 Relire à voix haute : toute phrase qu'on ne dirait pas à un ami se réécrit.
+
+## Règle de confidentialité (actée le 24/08/2026)
+
+Quelle que soit la campagne (La Table des Trois, Ensemble et Temps, ou toute
+autre), le blog ne publie que ce que les joueurs savent déjà. Aucun secret de
+MJ, aucun contenu d'arc non joué, aucun emplacement, aucune identité cachée.
+Avant publication d'un article de série, la question à se poser ligne par
+ligne : « mes joueurs ont-ils déjà vu ça à la table ? » En cas de doute, on
+coupe ou on attend que la scène soit jouée.
