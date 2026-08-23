@@ -3,6 +3,7 @@ languageCode = "fr-fr"
 defaultContentLanguage = "fr"
 title = "Tables Parallèles"
 enableRobotsTXT = true
+disableHugoGeneratorInject = true
 timeZone = "Europe/Paris"
 
 [params]

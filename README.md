@@ -2,7 +2,9 @@
 
 Carnets d'un MJ qui mène plusieurs mondes de front — https://tablesparalleles.fr
 
-Site statique généré par [Hugo](https://gohugo.io), publié sur GitHub Pages.
+Blog écrit et tenu par **VinzAtreide**.
+Techniquement : site statique fabriqué par le logiciel libre [Hugo](https://gohugo.io)
+(un générateur, pas un auteur), publié sur GitHub Pages.
 Newsletter : [Buttondown](https://buttondown.com/tablesparalleles).
 
 ## Publier un article
