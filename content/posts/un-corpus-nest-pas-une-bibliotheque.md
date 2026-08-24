@@ -1,6 +1,6 @@
 ---
 title: "Un corpus n'est pas une bibliothèque"
-date: 2026-09-14
+date: 2026-09-21
 description: "Des milliers de fiches parfaitement rangées, et aucune réponse à la question la plus simple du monde. Ce qu'on apprend en transformant une encyclopédie en outil de table."
 serie: ["La Table des Trois"]
 slug: un-corpus-nest-pas-une-bibliotheque

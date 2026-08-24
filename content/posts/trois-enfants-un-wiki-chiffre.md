@@ -1,9 +1,10 @@
 ---
 title: "Trois enfants, un wiki chiffré"
-date: 2026-08-23
-description: "Trois enfants, une campagne de super-héros prévue pour durer sept saisons, et une encyclopédie que chacun lit sans voir la même chose. Le premier carnet pose le décor."
+date: 2026-08-31
+description: "Trois enfants, une campagne de super-héros prévue pour durer sept saisons, et une encyclopédie que chacun lit sans voir la même chose. Le premier carnet de la série pose le décor."
 serie: ["La Table des Trois"]
 slug: trois-enfants-un-wiki-chiffre
+draft: true
 ---
 
 La cabane s'est effondrée trois fois.

@@ -16,9 +16,8 @@ Foundry VTT. La table familiale a un artefact public :
 entièrement chiffré, que chacun de mes joueurs déchiffre à hauteur de ce
 que son personnage sait.
 
-Le fil commun de tout ce que je raconte ici : je suis ingénieur de
-formation, et je traite mes tables comme des systèmes vivants. Je les
-outille, je les audite, je les documente. Ce blog est le carnet de ce
+Le fil commun de tout ce que je raconte ici : je traite mes tables comme
+des systèmes vivants. Je les outille, je les audite, je les documente. Ce blog est le carnet de ce
 travail : ce qui marche, ce qui casse, et ce que les joueurs en font, qui
 n'est jamais ce qu'on avait prévu. Et parce qu'une table commence toujours
 par une histoire, la série [Derrière l'écran](/serie/derriere-lecran/)
