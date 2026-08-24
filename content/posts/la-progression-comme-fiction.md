@@ -1,17 +1,23 @@
 ---
 title: "La progression comme fiction"
-date: 2026-09-22
+date: 2026-09-07
 description: "Faire monter de niveau des enfants de neuf à quatorze ans sans jamais ouvrir une feuille de calcul : quinze points, trois cases, et un bulletin scolaire."
 serie: ["La Table des Trois"]
 slug: la-progression-comme-fiction
 draft: true
 ---
 
-Il y a un moment que tous les meneurs qui jouent avec des enfants
-connaissent : celui où le jeu s'arrête pour laisser place à la comptabilité.
-Les points gagnés, les points dépensés, les cases à cocher. Pour un adulte
-rôliste, c'est un plaisir d'optimisation. Pour un enfant de neuf ans, c'est
-le moment où l'on cesse de jouer.
+Fin d'épisode, un samedi soir. L'écran du meneur est encore debout, les
+dés ne servent plus, et la question tombe avant même que j'aie rangé quoi
+que ce soit : « il a appris quoi, mon pouvoir ? »
+
+Cette question, ils la posent à chaque fin d'épisode, et j'y tiens plus
+qu'à n'importe quelle mécanique de la campagne. Parce qu'il y a un moment
+que tous les meneurs qui jouent avec des enfants connaissent : celui où le
+jeu s'arrête pour laisser place à la comptabilité. Les points gagnés, les
+points dépensés, les cases à cocher. Pour un adulte rôliste, c'est un
+plaisir d'optimisation. Pour un enfant de neuf ans, c'est le moment où
+l'on cesse de jouer.
 
 *Mutants & Masterminds* fait progresser les personnages en points de
 pouvoir. Le système est riche, granulaire, et parfaitement inadapté à une

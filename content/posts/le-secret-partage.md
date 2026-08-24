@@ -1,11 +1,21 @@
 ---
 title: "Le secret partagé"
-date: 2026-09-08
+date: 2026-08-31
 description: "Le meneur sait tout, chaque joueur sait autre chose, et tous ouvrent la même page. Pourquoi notre wiki de campagne a choisi le chiffrement plutôt que les permissions."
 serie: ["La Table des Trois"]
 slug: le-secret-partage
 draft: true
 ---
+
+Il y a, dans le wiki de la campagne, une note posée sur la fiche de
+personnage de la plus jeune joueuse de la table. Elle a neuf ans. La note
+prépare une révélation que je construis depuis des mois, et elle vit à
+trois centimètres de ce que sa joueuse a le droit de lire. Si elle la
+découvre trop tôt, il ne se passera rien de grave. Juste une histoire en
+moins.
+
+Ce carnet raconte comment on protège cette note, et pourquoi la solution
+retenue n'est pas celle des outils du marché.
 
 Un wiki de campagne bute toujours sur la même chose. Le meneur sait tout.
 Les joueurs savent des choses différentes les uns des autres. Et il
@@ -25,10 +35,9 @@ quand ça fuite**. Une permission mal réglée n'affiche pas d'erreur. Elle
 affiche une page.
 
 Or ici, l'enjeu n'est pas la confidentialité au sens professionnel. C'est
-plus fragile que ça : une gamine de neuf ans ne doit pas lire, sur sa
-propre fiche de personnage, la note du meneur qui la concerne. Une fuite ne
-coûte pas de l'argent, elle coûte une révélation qu'on préparait depuis six
-mois.
+plus fragile que ça : c'est la note du début de ce carnet. Une fuite ne
+coûte pas de l'argent, elle coûte une révélation qu'on préparait depuis des
+mois, et ce genre de perte ne se rembourse pas.
 
 ## Chiffrer, plutôt qu'autoriser
 
@@ -42,8 +51,10 @@ confidentialité (public, secret, très secret, notes du meneur). La clé d'un
 coffre ne voyage que dans le trousseau des lecteurs qui y ont droit, et ce
 trousseau est lui-même chiffré par la phrase de passe de son propriétaire.
 
-Le site est publié sur des pages statiques, en public. N'importe qui peut
-le télécharger intégralement. Sans phrase de passe, il n'en tire rien.
+Le site est publié sur des pages statiques, en public :
+[le voici](https://vinzatreide.github.io/herowiki-site/). N'importe qui
+peut le visiter, le télécharger intégralement, l'archiver. Sans phrase de
+passe, il n'en tire rien, et vous pouvez le constater vous-même.
 
 ## Ce que ça change à la table
 

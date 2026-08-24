@@ -1,14 +1,15 @@
 ---
 title: "Un audit ne se recopie pas, il se rejoue"
-date: 2026-10-13
+date: 2026-09-21
 description: "Douze rapports d'agents IA, quarante et un constats périmés et quatre références inventées : ce qu'on apprend en vérifiant chaque ligne avant de la croire."
 serie: ["L'Atelier"]
 slug: un-audit-ne-se-recopie-pas
 draft: true
 ---
 
-J'utilise des agents IA pour auditer un projet personnel, un wiki de
-campagne de jeu de rôle, mais peu importe le domaine : ce qui suit
+J'utilise des agents IA pour auditer un projet personnel, le
+[wiki de campagne](/2026/trois-enfants-un-wiki-chiffre/) que racontent les
+carnets de la Table des Trois, mais peu importe le domaine : ce qui suit
 s'applique à n'importe quel rapport produit par une IA, et probablement à
 pas mal de rapports produits par des humains.
 

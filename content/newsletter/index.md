@@ -1,9 +1,9 @@
 ---
 title: "La newsletter"
-description: "Un carnet toutes les deux semaines, directement chez toi."
+description: "Un carnet chaque semaine, directement chez toi."
 newsletter_on: true
 ---
-Tous les quinze jours, le dernier carnet arrive dans ta boîte mail, rien de
+Chaque semaine, le dernier carnet arrive dans ta boîte mail, rien de
 plus, rien de moins. Pas de spam, pas de revente d'adresse, désinscription en
 un clic en bas de chaque envoi.
 

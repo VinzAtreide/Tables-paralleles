@@ -11,7 +11,10 @@ leur faire vivre la même campagne. Elles jouent encore.
 Je mène aujourd'hui plusieurs campagnes de front : une table familiale sur
 *Mutants & Masterminds* avec mes trois enfants, et cette campagne D&D à
 deux groupes, dans des mondes parallèles qui se croisent, désormais sur
-Foundry VTT.
+Foundry VTT. La table familiale a un artefact public :
+[le wiki de la campagne](https://vinzatreide.github.io/herowiki-site/),
+entièrement chiffré, que chacun de mes joueurs déchiffre à hauteur de ce
+que son personnage sait.
 
 Le fil commun de tout ce que je raconte ici : je suis ingénieur de
 formation, et je traite mes tables comme des systèmes vivants. Je les
@@ -24,6 +27,6 @@ apparaissent dans ces pages par ce qu'ils font à la table, jamais par leur
 prénom, leur visage ou leur voix.
 
 Pour me suivre, le plus simple est [la newsletter](/newsletter/) : un
-carnet toutes les deux semaines. Le [flux RSS](/index.xml) fait la même
+carnet chaque semaine. Le [flux RSS](/index.xml) fait la même
 chose pour les gens outillés. Et pour m'écrire : [la page
 contact](/contact/).
