@@ -15,4 +15,5 @@ main{ color-scheme: light; }
   --color-success-fg:#96570e; --color-attention-fg:#96570e;
   --color-danger-fg:#b3403a;
 }
+html,body{ background:#faf9f6; }
 body{ font-family:"Source Serif 4",Georgia,serif; }
