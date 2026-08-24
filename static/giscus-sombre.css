@@ -1,0 +1,19 @@
+main{ color-scheme: dark; }
+:root{
+  --color-prettylights-syntax-comment:#8b949e;
+  --color-btn-primary-bg:#8b97f0; --color-btn-primary-hover-bg:#a4adf4;
+  --color-btn-primary-border:#8b97f0; --color-btn-primary-hover-border:#a4adf4;
+  --color-btn-primary-text:#191b23;
+  --color-btn-bg:#20222d; --color-btn-border:#33364a; --color-btn-hover-bg:#252836;
+  --color-fg-default:#e7e6df; --color-fg-muted:#a3a4ad; --color-fg-subtle:#8b8c96;
+  --color-canvas-default:transparent; --color-canvas-subtle:#191b23;
+  --color-canvas-inset:#191b23; --color-canvas-overlay:#20222d;
+  --color-border-default:#33364a; --color-border-muted:#2a2d3d;
+  --color-accent-fg:#a4adf4; --color-accent-emphasis:#8b97f0;
+  --color-accent-muted:rgba(139,151,240,.4); --color-accent-subtle:rgba(139,151,240,.15);
+  --color-input-bg:#191b23; --color-input-border:#33364a;
+  --color-primer-shadow-inset:none;
+  --color-success-fg:#e8ad63; --color-attention-fg:#e8ad63;
+  --color-danger-fg:#e58a84;
+}
+body{ font-family:"Source Serif 4",Georgia,serif; }

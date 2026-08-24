@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="colonne">
+<article class="post">
+  <p class="meta">Idées &amp; projets · état : {{ .Params.etat | default "idée" }}{{ with .Lastmod }} · mis à jour le {{ . | time.Format ":date_long" }}{{ end }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="chapo">{{ . }}</p>{{ end }}
+  {{ .Content }}
+  <p class="meta"><a href="{{ "/projets/" | relURL }}">← Toutes les idées &amp; projets</a></p>
+</article>
+</div>
+{{ end }}

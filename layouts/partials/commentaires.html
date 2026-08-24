@@ -1,7 +1,7 @@
 {{ if site.Params.giscusRepoId }}
 <section class="commentaires">
   <h2 id="commentaires">Commentaires</h2>
-  <p class="meta">Un compte GitHub (gratuit) est nécessaire pour écrire. Les commentaires vivent dans les discussions du site, modérées par l'auteur.</p>
+  <p class="meta">Réagir demande un compte GitHub (gratuit). Modéré par l'auteur.</p>
   <script src="https://giscus.app/client.js"
     data-repo="VinzAtreide/Tables-paralleles"
     data-repo-id="{{ site.Params.giscusRepoId }}"
@@ -12,7 +12,7 @@
     data-reactions-enabled="1"
     data-emit-metadata="0"
     data-input-position="top"
-    data-theme="preferred_color_scheme"
+    data-theme="{{ "giscus-clair.css" | absURL }}"
     data-lang="fr"
     data-loading="lazy"
     crossorigin="anonymous"

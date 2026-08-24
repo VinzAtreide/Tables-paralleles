@@ -6,8 +6,11 @@
     var b=document.getElementById('theme');
     if(b){b.textContent=icone(m);b.setAttribute('aria-label','Thème : '+(m||'auto'));}
     var f=document.querySelector('iframe.giscus-frame');
-    if(f){var g=(m==='dark')?'dark':(m==='light'?'light':'preferred_color_scheme');
-      f.contentWindow.postMessage({giscus:{setConfig:{theme:g}}},'https://giscus.app');}
+    if(f){
+      var sombre = m==='dark' || (!m && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      var url = location.origin + (sombre ? '/giscus-sombre.css' : '/giscus-clair.css');
+      f.contentWindow.postMessage({giscus:{setConfig:{theme:url}}},'https://giscus.app');
+    }
   }
   var m=null;
   try{m=localStorage.getItem(KEY);}catch(e){}
@@ -39,6 +42,13 @@
         prev=y;
       },{passive:true});
     }
+    // giscus : appliquer le bon theme des que l'iframe est prete
+    window.addEventListener('message',function(ev){
+      if(ev.origin==='https://giscus.app'){
+        var cur=null; try{cur=localStorage.getItem(KEY);}catch(e){}
+        applique(cur);
+      }
+    });
     var form=document.querySelector('.nl form');
     if(form){form.addEventListener('submit',function(){
       if(window.goatcounter&&window.goatcounter.count){

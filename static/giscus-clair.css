@@ -1,0 +1,18 @@
+main{ color-scheme: light; }
+:root{
+  --color-prettylights-syntax-comment:#6a737d;
+  --color-btn-primary-bg:#5a68d8; --color-btn-primary-hover-bg:#4351bd;
+  --color-btn-primary-border:#4351bd; --color-btn-primary-hover-border:#4351bd;
+  --color-btn-bg:#faf9f6; --color-btn-border:#d8d6cd; --color-btn-hover-bg:#f2f1ec;
+  --color-fg-default:#22242e; --color-fg-muted:#4c4f5e; --color-fg-subtle:#6b6e7c;
+  --color-canvas-default:transparent; --color-canvas-subtle:#f2f1ec;
+  --color-canvas-inset:#f2f1ec; --color-canvas-overlay:#faf9f6;
+  --color-border-default:#d8d6cd; --color-border-muted:#e4e2d9;
+  --color-accent-fg:#4351bd; --color-accent-emphasis:#5a68d8;
+  --color-accent-muted:rgba(90,104,216,.35); --color-accent-subtle:rgba(90,104,216,.12);
+  --color-input-bg:#f2f1ec; --color-input-border:#d8d6cd;
+  --color-primer-shadow-inset:none;
+  --color-success-fg:#96570e; --color-attention-fg:#96570e;
+  --color-danger-fg:#b3403a;
+}
+body{ font-family:"Source Serif 4",Georgia,serif; }

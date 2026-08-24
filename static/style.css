@@ -192,3 +192,10 @@ footer.bas a{color:inherit}
   a{text-underline-offset:3px}
   .serie-t,.carte-post{padding-top:16px;padding-bottom:16px}
 }
+/* ---- commentaires giscus ---- */
+.commentaires{border:1px solid var(--trait);border-radius:6px;background:var(--carte);
+  padding:22px 24px;margin-top:26px}
+.commentaires h2{margin:0 0 4px;font-size:22px}
+.commentaires>.meta{margin:0 0 16px}
+.commentaires .giscus,.commentaires iframe.giscus-frame{width:100%;border:0}
+.commentaires iframe.giscus-frame{min-height:150px;color-scheme:normal}

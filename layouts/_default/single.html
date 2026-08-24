@@ -33,7 +33,7 @@
   </div>
   {{ end }}
   {{ end }}
-  {{ if .TableOfContents }}
+  {{ if gt (len (findRE `<h2` .Content)) 0 }}
   <div class="cote-bloc">
     <span class="etq">Dans ce carnet</span>
     {{ .TableOfContents }}
