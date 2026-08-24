@@ -1,6 +1,6 @@
 :root{
   --papier:#f2f1ec; --encre:#22242e; --encre-2:#4c4f5e; --trait:#d8d6cd;
-  --ambre:#c97e26; --ambre-txt:#a35f12; --indigo:#5a68d8; --indigo-txt:#4351bd;
+  --ambre:#c97e26; --ambre-txt:#96570e; --indigo:#5a68d8; --indigo-txt:#4351bd;
   --carte:#faf9f6; --code:#e9e8e2;
 }
 @media (prefers-color-scheme: dark){

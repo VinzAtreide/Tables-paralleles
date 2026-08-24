@@ -19,8 +19,4 @@ son personnage sait, et Foundry VTT pour la campagne à deux tables.
 J'utilise des assistants IA comme des outils d'atelier : pour auditer mes
 projets, industrialiser des vérifications, préparer des documents de
 travail, et me servir de banc d'essai quand j'écris. Les idées, les choix,
-les récits de table et la voix de ce blog sont les miens ; une [charte
-d'écriture](https://github.com/VinzAtreide/Tables-paralleles/blob/main/CHARTE-ECRITURE.md)
-publique impose à chaque texte de passer une relecture qui traque les tics
-d'écriture générée. Si un carnet te semble y déroger, dis-le en
-commentaire : c'est exactement le genre de retour qui m'intéresse.
+les récits de table et la voix de ce blog sont les miens.

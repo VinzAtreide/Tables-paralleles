@@ -7,8 +7,8 @@ disableHugoGeneratorInject = true
 timeZone = "Europe/Paris"
 
 [params]
-  giscusRepoId = ""
-  giscusCategoryId = ""
+  giscusRepoId = "R_kgDOUB67qw"
+  giscusCategoryId = "DIC_kwDOUB67q84DECvu"
   description = "Carnets d'un MJ qui mène plusieurs mondes de front."
   tagline = "Carnets d'un MJ qui mène plusieurs mondes de front"
   buttondown = "tablesparalleles"
