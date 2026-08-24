@@ -16,5 +16,5 @@ main{ color-scheme: dark; }
   --color-success-fg:#e8ad63; --color-attention-fg:#e8ad63;
   --color-danger-fg:#e58a84;
 }
-html,body{ background:#20222d; }
+html,body,main,.gsc-main{ background:#20222d !important; }
 body{ font-family:"Source Serif 4",Georgia,serif; }
