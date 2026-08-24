@@ -21,6 +21,23 @@
       try{nxt?localStorage.setItem(KEY,nxt):localStorage.removeItem(KEY);}catch(e){}
       applique(nxt);
     }); applique(m);}
+    // bandeau flottant : masque en descente, revient a la remontee
+    var haut=document.querySelector('.haut');
+    if(haut){
+      var flot=haut.cloneNode(true);
+      flot.classList.add('flottant');
+      flot.setAttribute('aria-hidden','true');
+      flot.querySelectorAll('#theme').forEach(function(x){x.remove();});
+      document.body.appendChild(flot);
+      var prev=window.scrollY;
+      window.addEventListener('scroll',function(){
+        var y=window.scrollY;
+        if(y<haut.offsetTop+haut.offsetHeight+40){flot.classList.remove('visible');}
+        else if(y<prev-4){flot.classList.add('visible');}
+        else if(y>prev+4){flot.classList.remove('visible');}
+        prev=y;
+      },{passive:true});
+    }
     var form=document.querySelector('.nl form');
     if(form){form.addEventListener('submit',function(){
       if(window.goatcounter&&window.goatcounter.count){

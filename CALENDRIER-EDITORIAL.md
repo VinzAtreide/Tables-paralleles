@@ -5,10 +5,11 @@ de réserve sont déjà rédigés (drafts dans le dépôt : passer `draft: false
 
 | Date | Titre | Série | État |
 |---|---|---|---|
-| dim 23/08 | Trois enfants, un wiki chiffré | La Table des Trois | ✅ prêt (publié au lancement) |
-| lun 08/09 | La progression comme fiction | La Table des Trois | ✅ rédigé (draft) |
-| lun 22/09 | Un audit ne se recopie pas, il se rejoue | L'Atelier | ✅ rédigé (draft) |
-| lun 06/10 | Écrire pour une table qu'on ne contrôle pas | La Table des Trois | à rédiger (journal entrée 3) |
+| dim 23/08 | Trois enfants, un wiki chiffré (manifeste court, v2 du 24/08) | La Table des Trois | ✅ publié |
+| lun 08/09 | Le secret partagé | La Table des Trois | ✅ rédigé (draft) |
+| lun 22/09 | La progression comme fiction (+ questionnaire et Don) | La Table des Trois | ✅ rédigé (draft) |
+| lun 06/10 | Un corpus n'est pas une bibliothèque | La Table des Trois | ✅ rédigé (draft) |
+| lun 13/10 | Un audit ne se recopie pas, il se rejoue | L'Atelier | ✅ rédigé (draft) |
 | lun 20/10 | Ensemble et Temps : deux tables, une campagne | Ensemble et Temps | à rédiger — **premier article D&D, matière à collecter auprès de Vinz** |
 | lun 03/11 | Le statut qui ne ment pas | L'Atelier | à rédiger (journal entrée 9) |
 | lun 17/11 | Le dernier mètre | L'Atelier | à rédiger (journal entrée 8) |

@@ -19,7 +19,7 @@
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
 body{margin:0;background:var(--papier);color:var(--encre);
-  font-family:"Source Serif 4",Georgia,serif;font-size:17.5px;line-height:1.68;
+  font-family:"Source Serif 4",Georgia,serif;font-size:17px;line-height:1.68;
   -webkit-text-size-adjust:100%;text-size-adjust:100%}
 a{color:var(--indigo-txt);text-decoration-thickness:1px;text-underline-offset:2px}
 a:hover{color:var(--ambre-txt)}
@@ -38,6 +38,13 @@ h3{font-size:20px;margin:1.4em 0 .4em}
 /* ---- en-tête ---- */
 .haut{display:flex;align-items:center;justify-content:space-between;gap:10px 16px;
   flex-wrap:wrap;padding:16px 0 12px;border-bottom:1px solid var(--trait);margin-bottom:30px}
+.haut.flottant{position:fixed;top:0;left:0;right:0;z-index:20;margin:0;
+  padding:10px max(24px,calc((100vw - 1140px)/2 + 24px));
+  background:var(--carte);box-shadow:0 1px 8px rgba(0,0,0,.08);
+  transform:translateY(-110%);transition:transform .22s ease}
+.haut.flottant.visible{transform:translateY(0)}
+@media (prefers-reduced-motion: reduce){.haut.flottant{transition:none}}
+@media (max-height:480px) and (orientation:landscape){.haut.flottant{display:none}}
 .marque{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--encre)}
 .marque svg{flex:none}
 .marque b{font-family:"Fraunces",serif;font-weight:600;font-size:21px;letter-spacing:-.01em}
@@ -150,7 +157,7 @@ footer.bas a{color:inherit}
 .colonne{max-width:72ch;margin:0 auto}
 /* ===== telephone portrait ===== */
 @media (max-width: 480px){
-  body{font-size:16.5px}
+  body{font-size:16px}
   .page{padding:0 16px}
   .haut{justify-content:center;text-align:center}
   .marque{width:100%;justify-content:center}
@@ -179,8 +186,8 @@ footer.bas a{color:inherit}
   .series-tuiles .serie-t:last-child{grid-column:1/-1}
 }
 /* ===== grands ecrans : le texte grandit avec la distance de lecture ===== */
-@media (min-width: 1200px){ body{font-size:19px} }
-@media (min-width: 1700px){ body{font-size:20px} .page{max-width:1220px} }
+@media (min-width: 1200px){ body{font-size:18px} }
+@media (min-width: 1700px){ body{font-size:19px} .page{max-width:1220px} }
 @media (pointer: coarse){
   a{text-underline-offset:3px}
   .serie-t,.carte-post{padding-top:16px;padding-bottom:16px}

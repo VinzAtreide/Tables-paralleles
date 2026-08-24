@@ -1,6 +1,6 @@
 ---
 title: "La progression comme fiction"
-date: 2026-09-08
+date: 2026-09-22
 description: "Faire monter de niveau des enfants de neuf à quatorze ans sans jamais ouvrir une feuille de calcul : quinze points, trois cases, et un bulletin scolaire."
 serie: ["La Table des Trois"]
 slug: la-progression-comme-fiction
@@ -34,11 +34,42 @@ pouvoir a servi à protéger, il grandit vers la protection. S'il a servi à
 fuir, il apprend la fuite. Le pouvoir ne se choisit pas sur une liste : il se découvre dans ce qu'on en a fait. C'est la moitié mécanique du jeu qui
 devient de la narration pure.
 
+Concrètement, je tiens pendant la séance une liste de ce que chaque pouvoir
+a tenté, réussi ou raté, et surtout de la manière : un bras tendu vers une
+amie tombée n'apprend pas la même chose au pouvoir qu'un bras tendu pour
+frapper. En fin d'épisode, les sept points traduisent cette liste en
+mécanique, et je l'annonce en une phrase de fiction, jamais en termes de
+règles : « ton pouvoir a compris quelque chose cette semaine ». Le joueur
+découvre au carnet suivant ce que ça change sur sa fiche. Deux garde-fous :
+le Don ne progresse que dans une direction réellement jouée, et si un
+épisode n'a rien montré du pouvoir, les points attendent le suivant plutôt
+que d'inventer une trajectoire.
+
 Six points vont aux Cours. Là, c'est le joueur qui décide, et à voix
 haute, devant la table. Il choisit deux créneaux dans l'emploi du temps de
 son école, en expliquant pourquoi. « Je m'inscris au journal du lycée parce
 que je veux savoir ce qui est arrivé à Marcus. » Le choix d'optimisation se transforme en déclaration d'intention : le joueur annonce à tous ce que son
 personnage cherche, et le meneur sait exactement quoi préparer.
+
+Et les Cours ne restent pas une ligne sur une fiche : ils se jouent. À
+l'école de la campagne, un cours par épisode a vraiment lieu à la table.
+Un professeur donne dix minutes de leçon, lue à voix haute. Puis vient le
+contrôle : huit questions, vingt points, une feuille et un crayon par
+joueur, aucun dé. Les joueurs répondent avec leur propre tête : un enfant
+de neuf ans qui a écouté marque des points parce qu'il a écouté, et c'est
+le seul moment de la séance où personne ne lance rien.
+
+Le questionnaire a ses rituels, que la classe connaît par cœur. Une
+question se répond toujours par un dessin ou trois mots, jamais par des
+phrases. Répondre à l'oral vaut répondre à l'écrit, pour tout le monde, et
+certains camarades de classe s'en servent devant eux. Avant le contrôle,
+dix minutes de révision au dortoir : expliquer une réponse à voix haute à
+un autre rapporte un point à chacun des deux, celui qui explique comme
+celui qui écoute. Et la dernière question n'a pas de bonne réponse : elle
+demande un avis, un exemple et un « parce que », et c'est elle qui vaut le
+plus cher. Les notes s'affichent par équipe, jamais par élève, et
+l'entraide rapporte plus que la performance : le grand a arithmétiquement
+intérêt à faire réviser la petite.
 
 Deux points vont au Corps, automatiquement. On grandit, c'est tout.
 
