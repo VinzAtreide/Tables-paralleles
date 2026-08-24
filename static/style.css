@@ -1,18 +1,21 @@
 :root{
   --papier:#f2f1ec; --encre:#22242e; --encre-2:#4c4f5e; --trait:#d8d6cd;
   --ambre:#c97e26; --ambre-txt:#96570e; --indigo:#5a68d8; --indigo-txt:#4351bd;
+  --vert:#3f7d5a;
   --carte:#faf9f6; --code:#e9e8e2;
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --papier:#191b23; --encre:#e7e6df; --encre-2:#a3a4ad; --trait:#33364a;
     --ambre:#e09a45; --ambre-txt:#e8ad63; --indigo:#8b97f0; --indigo-txt:#a4adf4;
+    --vert:#6fae8a;
     --carte:#20222d; --code:#252836;
   }
 }
 :root[data-theme="dark"]{
   --papier:#191b23; --encre:#e7e6df; --encre-2:#a3a4ad; --trait:#33364a;
   --ambre:#e09a45; --ambre-txt:#e8ad63; --indigo:#8b97f0; --indigo-txt:#a4adf4;
+  --vert:#6fae8a;
   --carte:#20222d; --code:#252836;
 }
 *{box-sizing:border-box}
@@ -71,6 +74,7 @@ nav.menu a:hover{color:var(--encre)}
 .t-ambre{border-top-color:var(--ambre)}
 .t-indigo{border-top-color:var(--indigo)}
 .t-encre{border-top-color:var(--encre-2)}
+.t-vert{border-top-color:var(--vert)}
 .une{display:block;border:1px solid var(--trait);border-left:5px solid var(--ambre);
   border-radius:8px;background:var(--carte);padding:28px 32px;margin:26px 0 8px;
   text-decoration:none;color:var(--encre)}
@@ -79,6 +83,7 @@ nav.menu a:hover{color:var(--encre)}
 .une p{margin:0;color:var(--encre-2);font-size:17px;max-width:75ch}
 .une.s-ensemble-et-temps{border-left-color:var(--indigo)}
 .une.s-atelier{border-left-color:var(--encre-2)}
+.une.s-derriere-lecran{border-left-color:var(--vert)}
 .grille-posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin:14px 0}
 /* ---- cartes ---- */
 .carte-post{display:block;border:1px solid var(--trait);border-left-width:4px;border-radius:6px;
@@ -90,6 +95,7 @@ nav.menu a:hover{color:var(--encre)}
 .s-la-table-des-trois{border-left-color:var(--ambre)}
 .s-ensemble-et-temps{border-left-color:var(--indigo)}
 .s-atelier{border-left-color:var(--encre-2)}
+.s-derriere-lecran{border-left-color:var(--vert)}
 .meta{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--encre-2)}
 .meta a{color:inherit}
 /* ---- gabarit article : deux colonnes sur bureau ---- */
@@ -126,6 +132,7 @@ article.post hr{border:none;margin:2.4em auto;height:22px;width:120px;
 .entete-article.s-la-table-des-trois{border-bottom-color:var(--ambre)}
 .entete-article.s-ensemble-et-temps{border-bottom-color:var(--indigo)}
 .entete-article.s-atelier{border-bottom-color:var(--encre-2)}
+.entete-article.s-derriere-lecran{border-bottom-color:var(--vert)}
 /* ---- fin d'article ---- */
 .fin-article{border-top:1px solid var(--trait);margin-top:34px;padding-top:20px}
 .nav-posts{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin:18px 0}
@@ -177,13 +184,13 @@ footer.bas a{color:inherit}
 /* ===== telephone paysage ===== */
 @media (max-height: 480px) and (orientation: landscape){
   .haut{padding:10px 0 8px;margin-bottom:16px}
-  .series-tuiles{grid-template-columns:repeat(3,1fr)}
+  .series-tuiles{grid-template-columns:repeat(4,1fr)}
   .nl form{flex-direction:row}
 }
 /* ===== tablette portrait ===== */
 @media (min-width: 481px) and (max-width: 900px) and (orientation: portrait){
   .series-tuiles{grid-template-columns:1fr 1fr}
-  .series-tuiles .serie-t:last-child{grid-column:1/-1}
+  .series-tuiles .serie-t:last-child:nth-child(odd){grid-column:1/-1}
 }
 /* ===== grands ecrans : le texte grandit avec la distance de lecture ===== */
 @media (min-width: 1200px){ body{font-size:18px} }

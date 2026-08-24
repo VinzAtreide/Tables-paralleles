@@ -63,6 +63,30 @@ enfant n'a de compte ni de mot de passe à retenir : chacun scanne le QR
 code imprimé sur sa licence de super-héros en carton, et le site s'ouvre
 sur sa part de l'histoire.
 
+## Des héros qui ne sont pas d'ici
+
+Il faut dire un mot du fil rouge, parce que tout le dispositif en découle.
+Leurs personnages ne viennent pas de ce monde. Ils savent une seule chose,
+et nous n'en dirons pas plus ici : ils ne sont plus sur leur Terre, et ils
+se sont réveillés à Freedom City, la grande ville des comics de *Mutants &
+Masterminds*. Le genre porte un nom, l'isekai : le héros projeté dans un
+monde qu'il doit apprendre de zéro. Une ville inconnue, une académie
+inconnue, des visages inconnus, et personne pour leur expliquer les
+règles.
+
+Ce choix d'écriture change la nature du jeu. Chercher l'information
+devient le jeu lui-même, et non plus la corvée qu'on expédie entre deux
+scènes d'action : qui dirige l'académie, à qui se fier, ce que ce monde
+sait des leurs. Le wiki est le terrain de cette enquête permanente, et
+chaque fiche déverrouillée est une victoire gagnée en jeu.
+
+Il est aussi ce qui fait vivre la campagne entre deux samedis. La gazette
+de la ville y publie ses articles, on y relit le résumé de l'épisode
+précédent, on y trouve des indices, des aides de jeu, l'emploi du temps
+de l'académie, le menu de la cantine, son organigramme, la liste des
+élèves, le tableau des honneurs et les bulletins. Un enfant qui ouvre le
+wiki un mercredi soir joue déjà, sans dés et sans meneur.
+
 ## Le wiki que vous ne pouvez pas lire
 
 Il est en ligne, public, et vous pouvez l'ouvrir maintenant :
@@ -99,6 +123,12 @@ combat final.
 Enfin la méthode. Tout ce qui précède se consigne, se teste, s'audite.
 Une page tenue depuis la première séance garde la trace des décisions que
 le plan n'exigeait pas ; dans sept saisons, elle servira de preuve.
+
+Et parce que le fil rouge, l'académie et la campagne sont d'abord des
+objets d'écriture, une série sœur s'ouvre en parallèle :
+[Derrière l'écran](/serie/derriere-lecran/), sur la fabrique des
+campagnes, des scénarios et des histoires, écrite pour les meneurs qui
+débutent.
 
 La suite au prochain carnet : le secret partagé, ou pourquoi la
 cryptographie s'est révélée être la partie facile.

@@ -20,7 +20,10 @@ Le fil commun de tout ce que je raconte ici : je suis ingénieur de
 formation, et je traite mes tables comme des systèmes vivants. Je les
 outille, je les audite, je les documente. Ce blog est le carnet de ce
 travail : ce qui marche, ce qui casse, et ce que les joueurs en font, qui
-n'est jamais ce qu'on avait prévu.
+n'est jamais ce qu'on avait prévu. Et parce qu'une table commence toujours
+par une histoire, la série [Derrière l'écran](/serie/derriere-lecran/)
+s'adresse aux meneurs, débutants en tête : concevoir une campagne, un
+scénario, une histoire qui tient.
 
 Une règle d'écriture, posée une fois pour toutes : mes enfants
 apparaissent dans ces pages par ce qu'ils font à la table, jamais par leur
