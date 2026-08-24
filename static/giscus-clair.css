@@ -5,7 +5,7 @@ main{ color-scheme: light; }
   --color-btn-primary-border:#4351bd; --color-btn-primary-hover-border:#4351bd;
   --color-btn-bg:#faf9f6; --color-btn-border:#d8d6cd; --color-btn-hover-bg:#f2f1ec;
   --color-fg-default:#22242e; --color-fg-muted:#4c4f5e; --color-fg-subtle:#6b6e7c;
-  --color-canvas-default:transparent; --color-canvas-subtle:#f2f1ec;
+  --color-canvas-default:#faf9f6; --color-canvas-subtle:#f2f1ec;
   --color-canvas-inset:#f2f1ec; --color-canvas-overlay:#faf9f6;
   --color-border-default:#d8d6cd; --color-border-muted:#e4e2d9;
   --color-accent-fg:#4351bd; --color-accent-emphasis:#5a68d8;

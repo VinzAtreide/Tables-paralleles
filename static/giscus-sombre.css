@@ -6,7 +6,7 @@ main{ color-scheme: dark; }
   --color-btn-primary-text:#191b23;
   --color-btn-bg:#20222d; --color-btn-border:#33364a; --color-btn-hover-bg:#252836;
   --color-fg-default:#e7e6df; --color-fg-muted:#a3a4ad; --color-fg-subtle:#8b8c96;
-  --color-canvas-default:transparent; --color-canvas-subtle:#191b23;
+  --color-canvas-default:#20222d; --color-canvas-subtle:#191b23;
   --color-canvas-inset:#191b23; --color-canvas-overlay:#20222d;
   --color-border-default:#33364a; --color-border-muted:#2a2d3d;
   --color-accent-fg:#a4adf4; --color-accent-emphasis:#8b97f0;
