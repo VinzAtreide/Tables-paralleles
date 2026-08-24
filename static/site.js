@@ -27,6 +27,7 @@
       var flot=haut.cloneNode(true);
       flot.classList.add('flottant');
       flot.setAttribute('aria-hidden','true');
+      flot.setAttribute('inert','');
       flot.querySelectorAll('#theme').forEach(function(x){x.remove();});
       document.body.appendChild(flot);
       var prev=window.scrollY;
