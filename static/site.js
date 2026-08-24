@@ -8,7 +8,7 @@
     var f=document.querySelector('iframe.giscus-frame');
     if(f){
       var sombre = m==='dark' || (!m && window.matchMedia('(prefers-color-scheme: dark)').matches);
-      var url = location.origin + (sombre ? '/giscus-sombre.css' : '/giscus-clair.css');
+      var url = location.origin + (sombre ? '/giscus-sombre.css' : '/giscus-clair.css') + '?v=3';
       f.contentWindow.postMessage({giscus:{setConfig:{theme:url}}},'https://giscus.app');
     }
   }
