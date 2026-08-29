@@ -1,6 +1,6 @@
 ---
 title: "La progression comme fiction"
-date: 2026-09-21
+date: 2026-09-28
 description: "Faire monter de niveau des enfants de neuf à quatorze ans sans jamais ouvrir une feuille de calcul : quinze points, trois cases, et un bulletin scolaire."
 serie: ["La Table des Trois"]
 slug: la-progression-comme-fiction

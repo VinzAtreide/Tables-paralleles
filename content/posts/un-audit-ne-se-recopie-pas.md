@@ -1,6 +1,6 @@
 ---
 title: "Un audit ne se recopie pas, il se rejoue"
-date: 2026-10-05
+date: 2026-09-21
 description: "Douze rapports d'agents IA, quarante et un constats périmés et quatre références inventées : ce qu'on apprend en vérifiant chaque ligne avant de la croire."
 serie: ["L'Atelier"]
 slug: un-audit-ne-se-recopie-pas
