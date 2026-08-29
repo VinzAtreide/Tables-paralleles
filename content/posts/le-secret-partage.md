@@ -1,6 +1,6 @@
 ---
 title: "Le secret partagé"
-date: 2026-09-07
+date: 2026-09-14
 description: "Le meneur sait tout, chaque joueur sait autre chose, et tous ouvrent la même page. Pourquoi notre wiki de campagne a choisi le chiffrement plutôt que les permissions."
 serie: ["La Table des Trois"]
 slug: le-secret-partage

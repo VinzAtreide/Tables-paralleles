@@ -79,5 +79,6 @@ gens outillés, et [la page contact](/contact/) est ouverte : dites-moi
 ce que vous menez, ce qui casse à votre table, ce que vous aimeriez
 lire ici.
 
-Lundi prochain, donc : une bâche bleue, trois jets de dés ratés, et la
-meilleure séance de jeu de rôle de mon été.
+Lundi prochain, donc : retour en mai 2022, quand une annonce postée sur
+Internet, un questionnaire déraisonnable et dix-huit inconnus ont donné
+naissance à tout cela.
