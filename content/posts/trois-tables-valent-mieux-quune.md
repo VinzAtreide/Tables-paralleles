@@ -123,8 +123,10 @@ troisième monde s'est éteint. Les deux qui restent jouent encore, quatre
 ans plus tard : bientôt 150 séances, niveau 6, quelque part dans les
 profondeurs d'Undermountain.
 
+## Quatre gestes pour se lancer
+
 Si vous rêvez d'une campagne au long cours, voilà ce que cette genèse
-m'a appris, en quatre gestes.
+m'a appris.
 
 Vérifiez l'alignement des attentes avant la première séance. Un
 questionnaire de candidature ressemble à du zèle ; c'est une fondation.
